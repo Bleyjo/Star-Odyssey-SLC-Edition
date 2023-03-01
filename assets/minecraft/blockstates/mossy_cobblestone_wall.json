@@ -1,0 +1,31 @@
+{
+    "multipart": [
+        {   "when": { "up": "true" },
+            "apply": { "model": "block/wall_moss_fence_post_3d"}
+        },
+        {   "when": { "north": "low" },
+            "apply": { "model": "block/wall_moss_fence_n"}
+        },
+        {   "when": { "east": "low" },
+            "apply": { "model": "block/wall_moss_fence_n", "y": 90}
+        },
+        {   "when": { "south": "low" },
+            "apply": { "model": "block/wall_moss_fence_n", "y": 180}
+        },
+        {   "when": { "west": "low" },
+            "apply": { "model": "block/wall_moss_fence_n", "y": 270}
+        },
+        {   "when": { "north": "tall" },
+            "apply": { "model": "block/wall_moss_fence_n"}
+        },
+        {   "when": { "east": "tall" },
+            "apply": { "model": "block/wall_moss_fence_n", "y": 90}
+        },
+        {   "when": { "south": "tall" },
+            "apply": { "model": "block/wall_moss_fence_n", "y": 180}
+        },
+        {   "when": { "west": "tall" },
+            "apply": { "model": "block/wall_moss_fence_n", "y": 270}
+        }
+    ]
+}
